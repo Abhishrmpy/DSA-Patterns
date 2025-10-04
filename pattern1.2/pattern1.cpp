@@ -1,3 +1,15 @@
+/*
+Question:
+Write a C++ program to print the following pattern using nested loops:
+
+*****
+*****
+*****
+*****
+*****
+
+Implement the pattern printing logic inside a function called print1().
+*/
 #include <iostream>
 using namespace std;
 void print1(){
