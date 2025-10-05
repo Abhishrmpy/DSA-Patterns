@@ -1,3 +1,4 @@
+// This is the inverted star pattern program.
 /*
 *****
 ****
@@ -5,7 +6,6 @@
 **
 *
 */
-
 
 #include <iostream>
 using namespace std;
