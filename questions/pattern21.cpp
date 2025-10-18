@@ -14,10 +14,13 @@
 using namespace std;
 int main()
 {
-    for(int i=1; i<=5; i++)
+    int n;
+    cout<<"Enter the number";
+    cin >>n;
+    for(int i=1; i<=n; i++)
     {   
         //space
-        for(int j=1; j<=5-i; j++)
+        for(int j=1; j<=n-i; j++)
         cout<<" ";
 
         //star
@@ -26,4 +29,6 @@ int main()
         }
         cout<<endl;
     }
+    return 0;
 }
+
