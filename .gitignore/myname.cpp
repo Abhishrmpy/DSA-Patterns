@@ -2,7 +2,7 @@
 using namespace std;
 
 int main() {
-    int n = 7; // height of each letter (try changing this for size!)
+    int n = 7; // height of each letter
 
     for (int i = 0; i < n; i++) {
 
