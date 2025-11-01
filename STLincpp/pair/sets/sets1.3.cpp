@@ -5,7 +5,7 @@
 using namespace std;
 
 int main() {
-    set<int, greater<int>> s; // descending order
+    set<int, greater<int>> s; 
 
     s.insert(10);
     s.insert(5);
@@ -13,5 +13,5 @@ int main() {
 
     cout << "Elements in descending order: ";
     for (int x : s)
-        cout << x << " ";  // prints 20 10 5
+        cout << x << " ";  
 }
